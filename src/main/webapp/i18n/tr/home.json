@@ -1,19 +1,19 @@
 {
   "home": {
-    "title": "Merhaba, Java Hipster!",
+    "title": "Notlarım Uygulamasına Hoş Geldiniz!",
     "subtitle": "Burası Ana Sayfanız",
     "logged": {
       "message": "\"{{username}}\" olarak giriş yaptınız."
     },
-    "question": "JHipster hakkında sorularınız için:",
+    "question": "Notlarım Uygulamasının içerisinde:",
     "link": {
-      "homepage": "JHipster ana sayfa",
-      "stackoverflow": "Stack Overflow'da JHipster",
-      "bugtracker": "JHipster hata yönetimi",
-      "chat": "JHipster genel sohbet odası",
-      "follow": "Twitter'da @jhipster adresinden ulaşabilirsiniz"
+      "homepage": "Tanımlamalarım",
+      "stackoverflow": "Rehberim",
+      "bugtracker": "Notlarım",
+      "chat": "Sorgulamalarım",
+      "follow": "Analizlerim bulunmaktadır."
     },
-    "like": "JHipster'ı beğendiysenizi yıldız vermeyi unutmayın",
-    "github": "GitHub"
+    "like": "Uygulamayı beğendiyseniz yıldız vermeyi unutmayın",
+    "github": "Notlarım"
   }
 }

@@ -1,0 +1,28 @@
+{
+  "applications": "*",
+  "changelogDate": "20220203181918",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "not_baslik_tanim",
+  "fields": [
+    {
+      "fieldName": "baslik",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "NotBaslikTanim",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "notlar",
+      "otherEntityRelationshipName": "baslik",
+      "relationshipName": "notlar",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

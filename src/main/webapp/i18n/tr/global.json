@@ -1,12 +1,16 @@
 {
   "global": {
-    "title": "Notlarim",
+    "title": " Notlarım Uygulaması",
     "browsehappy": "<strong>Çok eski</strong> bir tarayıcı kullanıyorsunuz. Lütfen kullanım kalitenizi arttırmak için <a href=\"http://browsehappy.com/?locale=tr\">tarayıcınızı yükseltin</a>.",
     "menu": {
       "home": "Ana Sayfa",
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Varlıklar",
+        "personelTanim": "Personel Tanim",
+        "rehber": "Rehber",
+        "notBaslikTanim": "Not Baslik Tanim",
+        "notlar": "Notlar",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {
@@ -80,7 +84,7 @@
       }
     },
     "field": {
-      "id": "ID"
+      "id": "Sıra Nu"
     },
     "ribbon": {
       "dev": "Development"
@@ -137,5 +141,5 @@
       "not.image": "File was expected to be an image but was found to be \"{{ fileType }}\""
     }
   },
-  "footer": "Burası sayfa alt bilgisi"
+  "footer": "@2022 by Ömer ALTAN"
 }

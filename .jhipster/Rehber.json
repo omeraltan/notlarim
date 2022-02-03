@@ -1,0 +1,32 @@
+{
+  "applications": "*",
+  "changelogDate": "20220203181917",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "rehber",
+  "fields": [
+    {
+      "fieldName": "telefon",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "adres",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Rehber",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "personelTanim",
+      "otherEntityRelationshipName": "rehber",
+      "relationshipName": "personel",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

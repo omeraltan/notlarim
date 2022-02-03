@@ -1,0 +1,25 @@
+{
+  "notlarimApp": {
+    "notBaslikTanim": {
+      "home": {
+        "title": "Not Baslik Tanims",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Not Baslik Tanim",
+        "createOrEditLabel": "Create or edit a Not Baslik Tanim",
+        "notFound": "No Not Baslik Tanims found"
+      },
+      "created": "A new Not Baslik Tanim is created with identifier {{ param }}",
+      "updated": "A Not Baslik Tanim is updated with identifier {{ param }}",
+      "deleted": "A Not Baslik Tanim is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Not Baslik Tanim {{ id }}?"
+      },
+      "detail": {
+        "title": "Not Baslik Tanim"
+      },
+      "id": "ID",
+      "baslik": "Baslik",
+      "notlar": "Notlar"
+    }
+  }
+}

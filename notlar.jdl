@@ -1,0 +1,45 @@
+
+entity PersonelTanim {
+	adi String required
+    soyadi String required
+    gorevtip Gorev required
+}
+
+entity Rehber {
+	telefon Integer required
+    adres String
+}
+
+entity NotBaslikTanim {
+	baslik String required
+}
+
+entity Notlar {
+	not String required
+}
+
+/**
+ *Personellerin Gorev Tipleri
+ *@author the omer
+ */
+enum Gorev {
+	J_DEV_MEM, J_UZM, J_ASB, J_SBY, DIGER 
+}
+
+relationship OneToMany {
+	PersonelTanim to Rehber{personel}
+}
+
+relationship OneToMany {
+	NotBaslikTanim to Notlar{baslik}
+}
+
+// Set pagination options
+paginate PersonelTanim, Rehber, NotBaslikTanim, Notlar with pagination
+
+// Use Data Transfer Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl except PersonelTanim, Rehber, NotBaslikTanim, Notlar
+

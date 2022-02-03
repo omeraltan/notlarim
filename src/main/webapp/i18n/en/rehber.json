@@ -1,0 +1,26 @@
+{
+  "notlarimApp": {
+    "rehber": {
+      "home": {
+        "title": "Rehbers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Rehber",
+        "createOrEditLabel": "Create or edit a Rehber",
+        "notFound": "No Rehbers found"
+      },
+      "created": "A new Rehber is created with identifier {{ param }}",
+      "updated": "A Rehber is updated with identifier {{ param }}",
+      "deleted": "A Rehber is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Rehber {{ id }}?"
+      },
+      "detail": {
+        "title": "Rehber"
+      },
+      "id": "ID",
+      "telefon": "Telefon",
+      "adres": "Adres",
+      "personel": "Personel"
+    }
+  }
+}

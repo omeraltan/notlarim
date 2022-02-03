@@ -7,6 +7,10 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
+        "personelTanim": "Personel Tanim",
+        "rehber": "Rehber",
+        "notBaslikTanim": "Not Baslik Tanim",
+        "notlar": "Notlar",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {
