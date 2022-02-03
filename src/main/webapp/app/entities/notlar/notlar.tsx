@@ -100,14 +100,14 @@ export const Notlar = (props: RouteComponentProps<{ url: string }>) => {
           <Table responsive>
             <thead>
               <tr>
-                <th className="hand" onClick={sort('id')}>
-                  <Translate contentKey="notlarimApp.notlar.id">ID</Translate> <FontAwesomeIcon icon="sort" />
+                <th className="hand">
+                  <Translate contentKey="notlarimApp.notlar.id">ID</Translate>
                 </th>
                 <th className="hand" onClick={sort('not')}>
                   <Translate contentKey="notlarimApp.notlar.not">Not</Translate> <FontAwesomeIcon icon="sort" />
                 </th>
                 <th>
-                  <Translate contentKey="notlarimApp.notlar.baslik">Baslik</Translate> <FontAwesomeIcon icon="sort" />
+                  <Translate contentKey="notlarimApp.notlar.baslik">Baslik</Translate>
                 </th>
                 <th />
               </tr>

@@ -1,11 +1,11 @@
 export enum Gorev {
-  J_DEV_MEM = 'J_DEV_MEM',
+  J_DEV_MEM = 'Jandarma Devlet Memuru',
 
-  J_UZM = 'J_UZM',
+  J_UZM = 'Jandarma Uzman',
 
-  J_ASB = 'J_ASB',
+  J_ASB = 'Jandarma Astsubay',
 
-  J_SBY = 'J_SBY',
+  J_SBY = 'Jandarma Subay',
 
-  DIGER = 'DIGER',
+  DIGER = 'Diğer',
 }

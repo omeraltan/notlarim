@@ -100,8 +100,8 @@ export const NotBaslikTanim = (props: RouteComponentProps<{ url: string }>) => {
           <Table responsive>
             <thead>
               <tr>
-                <th className="hand" onClick={sort('id')}>
-                  <Translate contentKey="notlarimApp.notBaslikTanim.id">ID</Translate> <FontAwesomeIcon icon="sort" />
+                <th className="hand">
+                  <Translate contentKey="notlarimApp.notBaslikTanim.id">ID</Translate>
                 </th>
                 <th className="hand" onClick={sort('baslik')}>
                   <Translate contentKey="notlarimApp.notBaslikTanim.baslik">Baslik</Translate> <FontAwesomeIcon icon="sort" />

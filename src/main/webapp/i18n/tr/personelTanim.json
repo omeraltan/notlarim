@@ -2,25 +2,25 @@
   "notlarimApp": {
     "personelTanim": {
       "home": {
-        "title": "Personel Tanims",
-        "refreshListLabel": "Refresh list",
-        "createLabel": "Create a new Personel Tanim",
-        "createOrEditLabel": "Create or edit a Personel Tanim",
-        "notFound": "No Personel Tanims found"
+        "title": "Personel Tanımlama İşlemleri",
+        "refreshListLabel": "Listeyi Yenile",
+        "createLabel": "Yeni Bir Personel Oluştur",
+        "createOrEditLabel": "Personel Tanımla Veya Düzenle",
+        "notFound": "Herhangi Bir Kayıt Bulunamamıştır!"
       },
-      "created": "A new Personel Tanim is created with identifier {{ param }}",
-      "updated": "A Personel Tanim is updated with identifier {{ param }}",
-      "deleted": "A Personel Tanim is deleted with identifier {{ param }}",
+      "created": "{{ param }} numaralı yeni bir Personel oluşturuldu.",
+      "updated": "{{ param }} numaralı Personel güncellendi.",
+      "deleted": "{{ param }} numaralı Personel silindi.",
       "delete": {
-        "question": "Are you sure you want to delete Personel Tanim {{ id }}?"
+        "question": "{{ id }} numaralı Personeli silmek istediğinizden emin misiniz?"
       },
       "detail": {
-        "title": "Personel Tanim"
+        "title": "Personel Bilgisi"
       },
-      "id": "ID",
-      "adi": "Adi",
-      "soyadi": "Soyadi",
-      "gorevtip": "Gorevtip",
+      "id": "Sıra Nu.",
+      "adi": "Adı",
+      "soyadi": "Soyadı",
+      "gorevtip": "Görev Tipi",
       "rehber": "Rehber"
     }
   }

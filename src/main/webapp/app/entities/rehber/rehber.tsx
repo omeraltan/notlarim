@@ -100,8 +100,8 @@ export const Rehber = (props: RouteComponentProps<{ url: string }>) => {
           <Table responsive>
             <thead>
               <tr>
-                <th className="hand" onClick={sort('id')}>
-                  <Translate contentKey="notlarimApp.rehber.id">ID</Translate> <FontAwesomeIcon icon="sort" />
+                <th className="hand">
+                  <Translate contentKey="notlarimApp.rehber.id">ID</Translate>
                 </th>
                 <th className="hand" onClick={sort('telefon')}>
                   <Translate contentKey="notlarimApp.rehber.telefon">Telefon</Translate> <FontAwesomeIcon icon="sort" />
@@ -110,7 +110,7 @@ export const Rehber = (props: RouteComponentProps<{ url: string }>) => {
                   <Translate contentKey="notlarimApp.rehber.adres">Adres</Translate> <FontAwesomeIcon icon="sort" />
                 </th>
                 <th>
-                  <Translate contentKey="notlarimApp.rehber.personel">Personel</Translate> <FontAwesomeIcon icon="sort" />
+                  <Translate contentKey="notlarimApp.rehber.personel">Personel</Translate>
                 </th>
                 <th />
               </tr>

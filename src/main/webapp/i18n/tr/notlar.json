@@ -2,24 +2,24 @@
   "notlarimApp": {
     "notlar": {
       "home": {
-        "title": "Notlars",
-        "refreshListLabel": "Refresh list",
-        "createLabel": "Create a new Notlar",
-        "createOrEditLabel": "Create or edit a Notlar",
-        "notFound": "No Notlars found"
+        "title": "Notlarım",
+        "refreshListLabel": "Listeyi Yenile",
+        "createLabel": "Yeni Bir Not Oluştur",
+        "createOrEditLabel": "Yeni Bir Not Tanımla Veya Düzenle",
+        "notFound": "Herhangi Bir Kayıt Bulunamamıştır!"
       },
-      "created": "A new Notlar is created with identifier {{ param }}",
-      "updated": "A Notlar is updated with identifier {{ param }}",
-      "deleted": "A Notlar is deleted with identifier {{ param }}",
+      "created": "{{ param }} numaralı not oluşturuldu.",
+      "updated": "{{ param }} numaralı not güncellendi.",
+      "deleted": "{{ param }} numaralı not silindi",
       "delete": {
-        "question": "Are you sure you want to delete Notlar {{ id }}?"
+        "question": "{{ id }} numaralı notu silmek istediğinizden emin misiniz?"
       },
       "detail": {
         "title": "Notlar"
       },
-      "id": "ID",
-      "not": "Not",
-      "baslik": "Baslik"
+      "id": "Sıra Nu.",
+      "not": "Notum",
+      "baslik": "Başlığı"
     }
   }
 }

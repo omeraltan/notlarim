@@ -100,8 +100,8 @@ export const PersonelTanim = (props: RouteComponentProps<{ url: string }>) => {
           <Table responsive>
             <thead>
               <tr>
-                <th className="hand" onClick={sort('id')}>
-                  <Translate contentKey="notlarimApp.personelTanim.id">ID</Translate> <FontAwesomeIcon icon="sort" />
+                <th className="hand">
+                  <Translate contentKey="notlarimApp.personelTanim.id">ID</Translate>
                 </th>
                 <th className="hand" onClick={sort('adi')}>
                   <Translate contentKey="notlarimApp.personelTanim.adi">Adi</Translate> <FontAwesomeIcon icon="sort" />
@@ -109,8 +109,8 @@ export const PersonelTanim = (props: RouteComponentProps<{ url: string }>) => {
                 <th className="hand" onClick={sort('soyadi')}>
                   <Translate contentKey="notlarimApp.personelTanim.soyadi">Soyadi</Translate> <FontAwesomeIcon icon="sort" />
                 </th>
-                <th className="hand" onClick={sort('gorevtip')}>
-                  <Translate contentKey="notlarimApp.personelTanim.gorevtip">Gorevtip</Translate> <FontAwesomeIcon icon="sort" />
+                <th className="hand">
+                  <Translate contentKey="notlarimApp.personelTanim.gorevtip">Gorevtip</Translate>
                 </th>
                 <th />
               </tr>

@@ -2,11 +2,11 @@
   "notlarimApp": {
     "Gorev": {
       "null": "",
-      "J_DEV_MEM": "J_DEV_MEM",
-      "J_UZM": "J_UZM",
-      "J_ASB": "J_ASB",
-      "J_SBY": "J_SBY",
-      "DIGER": "DIGER"
+      "J_DEV_MEM": "Devlet Memuru",
+      "J_UZM": "Jandarma Uzman",
+      "J_ASB": "Jandarma Astsubay",
+      "J_SBY": "Jandarma Subay",
+      "DIGER": "Diğer"
     }
   }
 }

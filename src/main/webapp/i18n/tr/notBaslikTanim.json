@@ -2,23 +2,23 @@
   "notlarimApp": {
     "notBaslikTanim": {
       "home": {
-        "title": "Not Baslik Tanims",
-        "refreshListLabel": "Refresh list",
-        "createLabel": "Create a new Not Baslik Tanim",
-        "createOrEditLabel": "Create or edit a Not Baslik Tanim",
-        "notFound": "No Not Baslik Tanims found"
+        "title": "Not Başlığı Tanımlama İşlemleri",
+        "refreshListLabel": "Listeyi Yenile",
+        "createLabel": "Yeni Başlık Tanımla",
+        "createOrEditLabel": "Yeni Bir Başlık Tanımla Veya Düzenle",
+        "notFound": "Herhangi Bir Kayıt Bulunamamıştır!"
       },
-      "created": "A new Not Baslik Tanim is created with identifier {{ param }}",
-      "updated": "A Not Baslik Tanim is updated with identifier {{ param }}",
-      "deleted": "A Not Baslik Tanim is deleted with identifier {{ param }}",
+      "created": "{{ param }} numaralı yeni bir Başlık oluşturulmuştur.",
+      "updated": "{{ param }} numaralı başlık güncellenmiştir.",
+      "deleted": "{{ param }} numaralı başlık silinmiştir.",
       "delete": {
-        "question": "Are you sure you want to delete Not Baslik Tanim {{ id }}?"
+        "question": "{{ id }} numaralı Başlığı silmek istediğinizden emin misiniz?"
       },
       "detail": {
-        "title": "Not Baslik Tanim"
+        "title": "Başlık Tanımı"
       },
-      "id": "ID",
-      "baslik": "Baslik",
+      "id": "Sıra Nu",
+      "baslik": "Başlık",
       "notlar": "Notlar"
     }
   }

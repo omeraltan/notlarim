@@ -2,24 +2,24 @@
   "notlarimApp": {
     "rehber": {
       "home": {
-        "title": "Rehbers",
-        "refreshListLabel": "Refresh list",
-        "createLabel": "Create a new Rehber",
-        "createOrEditLabel": "Create or edit a Rehber",
-        "notFound": "No Rehbers found"
+        "title": "Rehberim",
+        "refreshListLabel": "Listeyi Yenile",
+        "createLabel": "Yeni Bir Rehber Oluştur",
+        "createOrEditLabel": "Yeni Bir Rehber Oluştur Veya Düzenle",
+        "notFound": "Herhangi Bir Kayıt Bulunamamıştır!"
       },
-      "created": "A new Rehber is created with identifier {{ param }}",
-      "updated": "A Rehber is updated with identifier {{ param }}",
-      "deleted": "A Rehber is deleted with identifier {{ param }}",
+      "created": "{{ param }} numaralı yeni bir Rehber oluşturuldu.",
+      "updated": "{{ param }} numaralı Rehber güncellendi.",
+      "deleted": "{{ param }} numaralı Rehber silindi.",
       "delete": {
-        "question": "Are you sure you want to delete Rehber {{ id }}?"
+        "question": "{{ id }} numaralı Rehberi silmek istediğinizden emin misiniz?"
       },
       "detail": {
         "title": "Rehber"
       },
-      "id": "ID",
-      "telefon": "Telefon",
-      "adres": "Adres",
+      "id": "Sıra Nu.",
+      "telefon": "Telefonu",
+      "adres": "Adresi",
       "personel": "Personel"
     }
   }
